@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Create A basic node application",
+  "author": "Decagon <info@decagon.dev>",
+  "private": true,
+  "scripts": {
+    "test": "jest app.test.js",
+    "serve": "node lib/app"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  }
+}
